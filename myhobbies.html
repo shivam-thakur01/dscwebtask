@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .contact {
+        text-align: center;
+        position: relative;
+        background-color: rgb(53, 36, 36);
+        top: 212px;
+    }
+    
+    .contact ul {
+        text-align: center;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-bottom: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .contact a {
+        text-decoration: none;
+        color: thistle;
+    }
+    
+    .navbar {
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        text-align: center;
+        align-self: center;
+        color: whitesmoke;
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        background: linear-gradient( to right, rgb(197, 18, 122), rgb(150, 8, 90));
+    }
+    
+    .navbar a {
+        color: blanchedalmond;
+        text-decoration: none;
+        margin-left: 10px;
+        font-weight: bolder;
+        font-size: larger;
+    }
+    
+    .navbar img {
+        margin: auto;
+    }
+    
+    .content {
+        padding: 10px 10px 20px 10px;
+        font-size: larger;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(248, 161, 248);
+        margin-top: 100px;
+        border-radius: 30px;
+    }
+    
+    @media only screen and (max-width:600px) {
+        .navbar {
+            font-size: 1rem;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+</style>
+
+<body>
+
+    <navbar class="navbar">
+
+        <img src="/images/shivamlogo.png" alt="" srcset="" width="100">
+
+
+        <div class="nav-content " style="padding:0 2rem;float: right;width: max-content;
+         ">
+
+            <a href="./index.html">About Me</a>
+            <a style="color: red;" href="./myhobbies.html ">My Hobbies</a>
+            <a href="./skills.html ">skills</a>
+        </div>
+    </navbar>
+    <div class="content">
+        <h1 style="color:rgb(38, 0, 255) ;"><u>  MY HOBBIES  </u> </h1><br>
+        <ul style=" padding-top: 25px;font-size: x-large;font-weight: bolder;color: rgb(11, 167, 31);list-style-type: none; ">
+            <li>Watching cricket</li>
+            <li>Listening music</li>
+            <li>Exploring new things</li>
+            <li>Chess</li>
+            <li>Web and App devlopment</li>
+        </ul>
+    </div>
+    <div class="contact ">
+        <h3 style="color: thistle;font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif; ">CONTACT</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/shivam-thakur-49096a1ba ">Linkedin</a></li>
+            <li><a href="mailto.shivamoct41@gmail.com ">GMail</a></li>
+            <li><a href="https://github.com/shivam-thakur01 ">GitHub</a></li>
+            <li> <a href="https://www.codechef.com/users/thakur_01 ">CodeChef</a> </li>
+        </ul>
+    </div>
+</body>
+
+</html>

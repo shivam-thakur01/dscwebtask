@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        list-style: none;
+    }
+    
+    .contact {
+        text-align: center;
+        position: relative;
+        background-color: rgb(53, 36, 36);
+        /* top: 160px; */
+    }
+    
+    .contact ul {
+        text-align: center;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-bottom: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .contact a {
+        text-decoration: none;
+        color: thistle;
+    }
+    
+    .navbar {
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        text-align: center;
+        align-self: center;
+        color: whitesmoke;
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        background: linear-gradient( to right, rgb(197, 18, 122), rgb(150, 8, 90));
+    }
+    
+    .navbar a {
+        color: blanchedalmond;
+        text-decoration: none;
+        margin-left: 10px;
+        font-weight: bolder;
+        font-size: larger;
+    }
+    
+    .navbar img {
+        margin: auto;
+    }
+    
+    @media only screen and (max-width:810px) {
+        .navbar {
+            font-size: 1rem;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+</style>
+
+<body>
+
+    <navbar class="navbar">
+
+        <img src="/images/shivamlogo.png" alt="" srcset="" width="100">
+
+
+        <div class="nav-content " style="padding:0 2rem;float: right;width: max-content;
+         ">
+
+            <a style="color: red;" href="./index.html">About Me</a>
+            <a href="./myhobbies.html ">My Hobbies</a>
+            <a href="./skills.html ">skills</a>
+        </div>
+    </navbar>
+
+    <br><br>
+    <div style="font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top: 20px;">
+        <section style="margin: auto; width: fit-content; ">
+            <img style=" border-radius: 50%; filter: contrast(1.5); border: 5px solid rgb(126, 16, 129); " src="/images/profile-pic.jpg " width="200 " />
+            <h1><u>SHIVAM THAKUR</u></h1>
+        </section>
+    </div>
+    <div style="margin-top: 20px;background-size: cover;background-color: rgb(232, 236, 208);padding-bottom: 125px;padding-top: 40px;">
+        <p style="text-align: center; width:60%; margin:auto;font-size: larger;font-family:Verdana, Geneva, Tahoma, sans-serif;">
+
+            My name is Shivam Thakur.I am a first year undergraduate student of Netaji Subhash University of Technology. I am pursuing my bachlor degree in electronics and communication engineering with AI and ML. I completed my schooling from Rajkiya Pratibha Vikas
+            Vidyalaya. I got 95% in my 12th class. I have a deep interest in Artificial Intelligence and Machine Learning. I am looking for more opportunites to explore AI and ML.
+
+
+        </p>
+    </div>
+    <div class="contact">
+        <h3 style="color: thistle;font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;">CONTACT</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/shivam-thakur-49096a1ba">Linkedin</a></li>
+            <li><a href="mailto:shivamoct41@gmail.com">GMail</a></li>
+            <li><a href="https://github.com/shivam-thakur01">GitHub</a></li>
+            <li> <a href="https://www.codechef.com/users/thakur_01">CodeChef</a> </li>
+        </ul>
+    </div>
+</body>
+
+</html>
